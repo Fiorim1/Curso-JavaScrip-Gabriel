@@ -1,0 +1,12 @@
+Introduçao ao JavaScript:
+-> O que e JavaScript?
+R: JavaScript e uma linguagem de programaçao de alto nivel, interpretada e
+orientada a objetos, amplamente utilizada para criar interatividade em paginas
+web.
+ -> Como executar o JavaScript?
+ R: * No navegador (console do desenvolvedor);
+ * Em arquivos .js vinculados ao HTML;
+ * Em ambientes Node.js.
+
+ -> Primeiro codigo em JavaScript:
+ R: console.log("Hello, World!");
