@@ -1,4 +1,4 @@
-Curso de JavaScript 🚀
+<h1>Curso de JavaScript 🚀 </h1>  
 
 Bem-vindo ao Curso de JavaScript! Aqui você encontrará conteúdos atualizados para aprender e aprimorar suas habilidades em JavaScript, desde o básico até conceitos mais avançados.
 
