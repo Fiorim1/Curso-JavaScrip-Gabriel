@@ -18,7 +18,7 @@ if (age >= 18) {
 /* Explicaçao: 
 -> o IF verifica se a variavel "age" e maior ou igual a 18;
 -> Se for "TRUE" (verdadeiro), imprime "Maior De Idade";
--> Xaso for "FALSE" (falso), entra no bloco "ELSE" e imprime "Menor De Idade".
+-> Caso for "FALSE" (falso), entra no bloco "ELSE" e imprime "Menor De Idade".
 */
 /* SWITCH (Estrutura Condicional): */
 let day = 3;
