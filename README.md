@@ -30,35 +30,11 @@ Este repositório contém materiais, exercícios e projetos práticos para ajuda
 
 10_teste_e_debugging/ → Técnicas de depuração, testes unitários e frameworks de teste.
 
-🛠️ Projetos Práticos
-
-projetos_basicos/ → Pequenos projetos para fixação dos conceitos básicos.
-
-projetos_intermediarios/ → Aplicações mais elaboradas, como CRUDs e interações com APIs.
-
-projetos_avancados/ → Projetos completos que utilizam JavaScript moderno e frameworks.
-
-📝 Exercícios
-
-exercicios_fundamentos/ → Exercícios para treinar conceitos básicos.
-
-exercicios_intermediarios/ → Problemas e desafios de lógica.
-
-exercicios_avancados/ → Questões mais complexas e desafios reais.
-
-📚 Recursos Extras
-
-referencias/ → Links úteis, livros recomendados, documentações e cursos.
-
-dicas_truques/ → Macetes, boas práticas e atalhos para desenvolver melhor com JavaScript.
-
-desafios_semanas/ → Desafios propostos para aprimorar as habilidades semana a semana.
-
 🚀 Como Usar
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/curso-javascript-fiorim.git
+git clone https://github.com/seu-usuario/curso-javascript-gabriel.git
 
 Acesse o diretório do curso:
 
