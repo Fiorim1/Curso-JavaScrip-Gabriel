@@ -10,19 +10,19 @@ Este repositório contém materiais, exercícios e projetos práticos para ajuda
 
 📖 Módulos Teóricos
 
-01_fundamentos/ → História do JavaScript, conceitos básicos, variáveis, tipos de dados e operadores.
+Capitulo 1 → História do JavaScript, conceitos básicos, variáveis, tipos de dados e operadores.
 
-02_estrutura_de_controle/ → Condicionais, loops e controle de fluxo.
+Capitulo 2 → Condicionais, loops e controle de fluxo.
 
-03_funcoes/ → Declaração, parâmetros, retorno, funções anônimas e arrow functions.
+Capitulo 3 → Declaração, parâmetros, retorno, funções anônimas e arrow functions.
 
-04_objetos_arrays/ → Estruturas de dados, manipulação de objetos e arrays.
+Capitulo 4 → Estruturas de dados, manipulação de objetos e arrays.
 
-05_es6_modulos/ → Novidades do ES6+, template literals, spread/rest, destructuring e módulos.
+Capitulo 5 → Novidades do ES6+, template literals, spread/rest, destructuring e módulos.
 
-06_programacao_assincrona/ → Callbacks, Promises, async/await e manipulação de APIs.
+Capitulo 6 → Callbacks, Promises, async/await e manipulação de APIs.
 
-07_dom_e_eventos/ → Manipulação do DOM, eventos e interatividade no JavaScript.
+Capitulo 7 → Manipulação do DOM, eventos e interatividade no JavaScript.
 
 08_web_storage_e_http/ → LocalStorage, SessionStorage, IndexedDB, Fetch API e AJAX.
 
