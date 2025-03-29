@@ -4,7 +4,7 @@
 -> Ler arquivos
 -> Esperar um tempo antes de executar algo
 Se o JavaScript rodasse essas tarefas de forma sincrona (esperando cada uma terminar antes de ir para a proxima), o o programa ficaria travado.
-A programacaoassincrona resolve isso permitindo que o codigo continue rodando enquanto espera a resposta dessas tarefas demoradas. 
+A programacao assincrona resolve isso permitindo que o codigo continue rodando enquanto espera a resposta dessas tarefas demoradas. 
 */
 
 /* Exemplo Do Mundo Real: */
