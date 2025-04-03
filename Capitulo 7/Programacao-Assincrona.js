@@ -4,7 +4,7 @@
 -> Ler arquivos
 -> Esperar um tempo antes de executar algo
 Se o JavaScript rodasse essas tarefas de forma sincrona (esperando cada uma terminar antes de ir para a proxima), o o programa ficaria travado.
-A programacao assincrona resolve isso permitindo que o codigo continue rodando enquanto espera a resposta dessas tarefas demoradas. 
+A programacaoassincrona resolve isso permitindo que o codigo continue rodando enquanto espera a resposta dessas tarefas demoradas. 
 */
 
 /* Exemplo Do Mundo Real: */
@@ -54,3 +54,31 @@ pedirLanche().then((mensagem) => {
     console.log(mensagem);
 });
 console.log("Enquanto isso, mexendo no celular...");
+/* Aqui usamos ".then()" para esperar a Promise resolver. */
+/* O resultado e o mesmo, mas o codigo fica mais organizado. */
+
+/* 3- Async/Await (o jeito mais moderno e facil): O async/await deixa o codigo ainda mais legivel, parecendo codigo sincrono, mas funcionando de forma assincrona. */
+async function pedirLanche() {
+    console.log("Fazendo o pedido...");
+    let lanche = await prepararLanche();
+    console.log("Lanche pronto:", lanche);
+}
+function prepararLanche() {
+    return new Promise((resolve) => {
+        setTimeout(() => resolve("Hamburguer"), 2000);
+    });
+};
+fazerPedido();
+console.log("Enquanto isso, mexendo no celular...");
+/* O que acontece aqui? */
+/* 1- O codigo começa e imprime "Fazendo o pedido" */
+/* 2- A funçao "fazerPedido()" nao trava o codigo esperando o lanche. O programa continua rodando */
+/* 3- Ele imprime "Enquanto isso, mexendo no celular" */
+/* 4- Depois de 2 segundos, ele imprime "Lanche pronto: Hamburguer" */
+
+/* Resumo: */
+/* Sincrono: O codigo espera cada tarefa terminar antes de continuar */
+/* Assincrono: O codigo continua rodando enquanto espera */
+/* Callbacks: Eram usados antes, mas podem ficar confusos */
+/* Promises: Melhoram isso com ".then()" */
+/* Async/Await: E o jeito mais moderno e facil de entender */
